@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Tarea 11 del Bootcamps</title>
+</head>
+<body>
+
+<div class="contenedor__h1"> 
+        <header>
+           <h1 class="titulo">Veni al Gym!💪🏽</h1>
+        </header>
+</div>
+
+    <fieldset>
+
+    <legend>🙋‍♂️ Datos personales👀</legend>
+
+    <form action="">
+
+        <label>Nombre:*</label>
+        <input class="input__one" type="text" id="nombre" name="nombre" required autofocus>
+<br>
+        <label>Apellido:*</label>
+        <input class="input__one" type="text" id="apellido" name="apellido" required>
+<br>
+         <label>Documento:*</label>
+         <input class="input__one" type="text" id="documento" name="documento" required>
+<br>
+         <label>Nacionalidad:*</label>
+         <select name="" id="">
+         <option value="">-Seleccionar-</option>
+         <option value="">Argentina</option>
+         <option value="">Brasileña</option>
+         <option value="">Uruguaya</option>
+         <option value="">Otra</option>
+        </select>
+<br>
+        <label for="Contanos">Contanos un poco de vos...</label>
+        <textarea></textarea>
+
+        <label>Sexo:*</label>
+<br>   
+<div class="datos__personales"> 
+        <input type="radio" name="drone" value="Femenino" checked>     
+         <label class="opciones2">Femenino</label> 
+
+         <input type="radio" name="drone" value="Masculino" 
+         checked>
+         <label class="opciones2">Masculino</label> 
+
+         <input type="radio" name="drone" value="Otro"
+         checked>
+         <label class="opciones2">Otro</label> 
+</div>    
+</form> 
+        
+</fieldset>
+
+
+<hr>
+
+<fieldset>
+
+        <legend>📱Datos de contacto📧</legend>
+
+        <label for="Telefono">Telefono:</label>
+        <input class="input__one" type="text" placeholder="Codigo de area y numero">
+<br>
+        <label for="Dirrecion">Dirrecion de correo electronico:*</label>
+        <input class="input__one" type="email" name="email"  placeholder="Ej: mail@gmail.com" required>
+</fieldset>
+
+<hr>
+
+<fieldset>
+        <legend>🚴🏽Actividades 🤸🏼‍♂️</legend>
+
+        <p>
+            Por favor, indica cuales actividades te interesan.
+        </p>
+
+        <p>
+            Sede Palermo:
+        </p>
+<div class="Actividades">
+        <label><input class= "Actividades__input" type="checkbox">Basquet</label>
+        <label><input class= "Actividades__input" type="checkbox">Boxeo</label>
+        <label><input class= "Actividades__input" type="checkbox">Futbol</label>
+        <label><input class= "Actividades__input" type="checkbox">Tenis</label>
+</div>
+        <p>
+            Sede Rosario:
+        </p>
+<div class="Actividades">
+        <label><input class= "Actividades__input"  type="checkbox">Basquet</label>
+        <label><input  class= "Actividades__input" type="checkbox">Futbol</label>
+        <label><input  class= "Actividades__input" type="checkbox">Rugby</label>
+        <label><input  class= "Actividades__input" type="checkbox">Voley</label>
+</div>
+</fieldset>
+
+<div class="input__final">
+     <label><input  type="checkbox" required>Acepto las condiciones*</label><br>
+     <label><input type="checkbox">Deseo recibir novedades</label><br>
+</div>
+
+<p class="texto__final">:*campo obligatorio.</p>
+
+<button type="submit" class="primerBottom" form="formulario">Iniciar afiliacion</button> 
+<button  type="reset" class="segundoBottom" form="formulario">Restablecer</button> 
+   
+</body>
+</html>
