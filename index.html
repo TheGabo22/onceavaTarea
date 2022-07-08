@@ -15,37 +15,37 @@
         </header>
 </div>
 
+<form>
     <fieldset>
 
     <legend>🙋‍♂️ Datos personales👀</legend>
 
-    <form action="">
+        <label for="nombre">Nombre:*</label>
 
-        <label>Nombre:*</label>
-        <input class="input__one" type="text" id="nombre" name="nombre" required autofocus>
-<br>
-        <label>Apellido:*</label>
+        <input class="input__one" type="text" id="nombre" name="nombre" autofocus required>
+ <div>
+        <label for="apellido">Apellido:*</label>
         <input class="input__one" type="text" id="apellido" name="apellido" required>
-<br>
-         <label>Documento:*</label>
+ <div>
+         <label for="documento">Documento:*</label>
          <input class="input__one" type="text" id="documento" name="documento" required>
-<br>
+ <div>
          <label>Nacionalidad:*</label>
-         <select name="" id="">
+         <select name="Nacionalidad" id="Nacionalidad" required>
          <option value="">-Seleccionar-</option>
          <option value="">Argentina</option>
          <option value="">Brasileña</option>
          <option value="">Uruguaya</option>
          <option value="">Otra</option>
         </select>
-<br>
+ <div>
         <label for="Contanos">Contanos un poco de vos...</label>
         <textarea></textarea>
 
         <label>Sexo:*</label>
-<br>   
-<div class="datos__personales"> 
-        <input type="radio" name="drone" value="Femenino" checked>     
+ <div>
+ <div class="datos__personales"> 
+        <input type="radio" name="drone" value="Femenino" checked required>     
          <label class="opciones2">Femenino</label> 
 
          <input type="radio" name="drone" value="Masculino" 
@@ -55,28 +55,28 @@
          <input type="radio" name="drone" value="Otro"
          checked>
          <label class="opciones2">Otro</label> 
-</div>    
-</form> 
-        
-</fieldset>
+ </div>    
 
+ 
+ </fieldset>
+ 
+ 
+  <hr> 
 
-<hr>
-
-<fieldset>
+   <fieldset>
 
         <legend>📱Datos de contacto📧</legend>
 
         <label for="Telefono">Telefono:</label>
         <input class="input__one" type="text" placeholder="Codigo de area y numero">
-<br>
+   <div>
         <label for="Dirrecion">Dirrecion de correo electronico:*</label>
         <input class="input__one" type="email" name="email"  placeholder="Ej: mail@gmail.com" required>
-</fieldset>
+  </fieldset>
 
-<hr>
+  <hr>   
 
-<fieldset>
+  <fieldset>
         <legend>🚴🏽Actividades 🤸🏼‍♂️</legend>
 
         <p>
@@ -86,32 +86,33 @@
         <p>
             Sede Palermo:
         </p>
-<div class="Actividades">
-        <label><input class= "Actividades__input" type="checkbox">Basquet</label>
-        <label><input class= "Actividades__input" type="checkbox">Boxeo</label>
-        <label><input class= "Actividades__input" type="checkbox">Futbol</label>
-        <label><input class= "Actividades__input" type="checkbox">Tenis</label>
-</div>
-        <p>
-            Sede Rosario:
+       <div class="Actividades">
+             <label><input class= "Actividades__input" type="checkbox">Basquet</label>
+             <label><input class= "Actividades__input" type="checkbox">Boxeo</label>
+             <label><input class= "Actividades__input" type="checkbox">Futbol</label>
+             <label><input class= "Actividades__input" type="checkbox">Tenis</label>
+       </div>
+        <p>  
+            Sede Rosario:      
         </p>
-<div class="Actividades">
-        <label><input class= "Actividades__input"  type="checkbox">Basquet</label>
-        <label><input  class= "Actividades__input" type="checkbox">Futbol</label>
-        <label><input  class= "Actividades__input" type="checkbox">Rugby</label>
-        <label><input  class= "Actividades__input" type="checkbox">Voley</label>
-</div>
-</fieldset>
+        <div class="Actividades">
+            <label><input class= "Actividades__input"  type="checkbox">Basquet</label>
+            <label><input  class= "Actividades__input" type="checkbox">Futbol</label>
+            <label><input  class= "Actividades__input" type="checkbox">Rugby</label>
+            <label><input  class= "Actividades__input" type="checkbox">Voley</label>
+     </div>
+     </fieldset>
 
-<div class="input__final">
-     <label><input  type="checkbox" required>Acepto las condiciones*</label><br>
-     <label><input type="checkbox">Deseo recibir novedades</label><br>
-</div>
+     <div class="input__final">
+          <label><input  type="checkbox" required>Acepto las condiciones*</label><br>
+          <label><input type="checkbox">Deseo recibir novedades</label><br>
+     </div>
 
-<p class="texto__final">:*campo obligatorio.</p>
+     <p class="texto__final">:*campo obligatorio.</p>
 
-<button type="submit" class="primerBottom" form="formulario">Iniciar afiliacion</button> 
-<button  type="reset" class="segundoBottom" form="formulario">Restablecer</button> 
-   
+     <button type="submit" class="primerBottom" >Iniciar afiliacion</button> 
+     <button  type="reset" class="segundoBottom" >Restablecer</button>
+
+</form>
 </body>
 </html>

@@ -14,6 +14,7 @@
 body{
     background-color: rgb(33, 32, 32);
 }
+/* TITULO */
 .contenedor__h1{
     display: flex;
     align-items: center;
@@ -35,6 +36,9 @@ h1{
     font-family: 'Poppins', sans-serif;
     color: white;
 }
+
+/* Datos personales/contacto */
+
 legend{
     font-size: 18px;
     background-color:#2a3932;
@@ -72,6 +76,7 @@ label{
 .input__one:focus{
     background-color: #4c6c64;
 }
+
 select {
     width: 60%;
     padding: 5px;
@@ -82,6 +87,7 @@ textarea{
     width: 60%;
     padding: 30px;
     margin-left: 120px;
+    text-align: right;
 }
 .datos__personales{
     display: flex;
@@ -97,6 +103,9 @@ hr{
 .opciones2{
     margin: 5px;
 }
+
+/* ACTIVIDADES */
+
 p{
     margin: 15px;
     font-size: 16px;
@@ -119,6 +128,8 @@ p{
     color: antiquewhite;
     margin-right: 450px;
 }
+
+/* Botones */ 
 
 button{
     border: 1px solid black;
