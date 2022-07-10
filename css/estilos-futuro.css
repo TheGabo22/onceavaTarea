@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ 
+ body {
+    background-image: url(../img/imagen-fondo.jpg);
+ }
+ /* Titulo */
+     
+ h1 {
+     margin: 20px;
+     text-align: center;
+     font-size: 40px;
+     color: white;
+     text-shadow: 1px -2px 20px rgb(119, 13, 218);
+ }
+ 
+ /* Datos personales*/
+ 
+ legend {
+     font-size: 18px;
+     background-color:#152E54;
+     color: antiquewhite;
+     border: 2px solid black;
+     padding: 10px;
+     border-radius: 20px;
+     margin-left: 10px;
+     box-shadow: 2px -1px 10px rgb(119, 13, 218);
+ }
+ 
+ fieldset {
+     color: white;
+     background: linear-gradient(180deg, rgba(24,34,108,1) 75%, rgba(0,0,0,1) 100%, rgba(0,154,185,1) 100%);
+     border: 2px solid #1E375E;
+     width: 50%; 
+     margin-left: 350px;
+     margin-bottom: 50px;
+     padding-bottom: 40px;
+ }
+ fieldset:hover {
+     animation: pulsate 3s ease-in-out
+ }
+ label{
+     display: flex;
+     justify-content: center;
+ }
+ .input__one{
+     display: flex;
+     width: 60%;
+     height: 30px;
+     margin: 0 auto;
+     margin-bottom: 20px;
+ }
+ select{
+     display: flex;
+     width: 60%;
+     height: 30px;
+     margin: 0 auto;
+     margin-bottom: 20px;
+ }
+ select:hover {
+     cursor: pointer;
+     animation: pulsate 5s ease-in-out;
+ }
+ option {
+     text-align: center;
+ }
+ 
+ textarea{
+     display: flex;
+     width: 60%;
+     height: 80px;
+     margin: 0 auto;
+     margin-bottom: 20px;
+ }
+ .datos__personales{
+     display: flex;
+     justify-content: center;
+ }
+ .opciones2{
+     margin: 5px;
+ }
+ hr {
+     border: #152E54;
+ }
+ /* Actividades */
+ 
+ p{
+     margin: 15px;
+     font-size: 18px;
+     font-weight: 500;
+     color: antiquewhite;
+     border-bottom: 1px dashed black;
+     width: 350px;
+ }
+ .Actividades {
+     display: flex;
+     justify-content: flex-start;
+     color: antiquewhite;
+ }
+ .Actividades__input{
+     margin: 5px;
+ }
+ .texto__final{
+     font-size: 18px;
+     margin-left: 320px;
+ }
+ .input__final {
+     font-size: 20px;
+     color: white;
+     margin-right: 450px;
+ }
+ /* Botones */
+ 
+ button{
+     border: 2px solid black;
+     background: linear-gradient(347deg, rgba(0,32,255,1) 0%, rgba(49,58,126,1) 100%, rgba(0,212,255,1) 100%);
+     color: rgb(221, 219, 217);
+     padding: 15px;
+     border-radius: 10px;
+ }
+ button:hover{
+     background-color: #4e00c2;
+     animation: pulsate 3s ease-in-out;
+ }
+ .primerBottom{
+     margin-left: 550px;
+ }
+ .segundoBottom{
+     margin: 15px;
+ }
+ 
+ 
+ 
+ @keyframes pulsate {
+     0%{
+         box-shadow: 
+         0 0 25px #5ddcff,
+         0 0 50px #4e00c2;
+     }
+ }

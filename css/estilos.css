@@ -1,11 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@300&display=swap');
 
-/* font-family: 'Poppins', sans-serif; */
-/*font-family: 'Roboto', sans-serif;*/
-/*clip-path: polygon(24% 0, 71% 0, 70% 31%, 26% 32%);
-    clip-path: polygon(23% 74%, 69% 74%, 68% 100%, 24% 100%);*/
-
 *{
     margin: 0;
     padding: 0;
@@ -72,6 +67,7 @@ label{
     display: flex;
     margin-left: 120px;
     text-align: right;
+    
 }
 .input__one:focus{
     background-color: #4c6c64;
