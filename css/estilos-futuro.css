@@ -122,7 +122,9 @@
      border-radius: 10px;
  }
  button:hover{
-     background-color: #4e00c2;
+     background-color: #4e00c2; 
+     transform: scale(0);
+     transition: transform 3.5s;
      animation: pulsate 3s ease-in-out;
  }
  .primerBottom{

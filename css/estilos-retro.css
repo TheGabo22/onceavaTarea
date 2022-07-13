@@ -111,7 +111,7 @@ button{
 button:hover {
     transform: scale(0);
     background: rgba(160, 165, 29, 0.701);
-    transition: transform .9s;
+    transition: transform 3.5s;
 }
 .primerBottom{
     margin-left: 550px;
