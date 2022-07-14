@@ -26,6 +26,7 @@ fieldset {
     border-radius: 50px;
 }
 fieldset:nth-child(3){
+    width: 50%;
     height: 200px;
 }
 legend {
@@ -119,6 +120,47 @@ button:hover {
 .segundoBottom{
     margin: 15px;
 }
+
+@media screen and (max-width: 500px) {
+    body {
+        margin: 0 auto;
+    }
+    fieldset {
+        width: 60%;
+        margin-left: 20px;
+        margin-bottom: 80px;
+    }
+    fieldset:nth-child(3){
+        width: 300px
+    }
+    .input__one{
+        margin: 0 auto;
+        width: 80%;
+    }
+    select{
+        margin: 0 auto;
+        width: 80%;
+    }
+    textarea {
+        width: 80%;
+        margin-left: 30px;
+        padding: 20px;
+    }
+    .texto__final{
+        margin-left: 60px;
+    }
+    .input__final{
+        font-size: 20px;
+        margin-left: 130px;
+    }
+    .primerBottom{
+        margin-left: 10%;
+    }
+    .segundoBottom{
+        margin: 20px;
+    }
+}
+
 
 
 

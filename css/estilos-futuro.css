@@ -151,7 +151,7 @@
     
     fieldset {
         width: 80%;
-        margin-left: 50px;
+        margin-left: 20px;
     }
     .input__one{
         margin: 0 auto;
@@ -166,12 +166,6 @@
         margin-left: 30px;
         padding: 20px;
     }
-    hr {
-        border: 0px solid;
-        border-top: 10px dotted #a3c2ba;
-        width: 30%;
-        margin: 20px auto;
-    }
     .texto__final{
         margin-left: 60px;
     }
@@ -180,9 +174,9 @@
         margin-left: 130px;
     }
     .primerBottom{
-        margin-left: 30%;
+        margin-left: 10%;
     }
     .segundoBottom{
         margin: 20px;
     }
-}
+ }
